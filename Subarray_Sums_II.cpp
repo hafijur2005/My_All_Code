@@ -1,0 +1,36 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+#define ll long long
+#define ld double
+#define fast ios::sync_with_stdio(false), cin.tie(nullptr)
+#define all(x) x.begin(), x.end()
+#define yes cout << "YES\n";
+#define no cout << "NO\n";
+#define nl cout << "\n";
+
+int main()
+{
+    fast;
+
+    int n, ex_sum;
+    cin >> n >> ex_sum;
+
+    map<ll, ll> sum_fre;
+    sum_fre[0] = 1;
+    ll sum = 0;
+    ll ans = 0;
+    for (int i = 1; i <= n; i++)
+    {
+        int x;
+        cin >> x;
+
+        sum += x;
+        ans += sum_fre[sum - ex_sum];
+        sum_fre[sum]++;
+    }
+
+    cout << ans << '\n';
+
+    return 0;
+}

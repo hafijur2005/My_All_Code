@@ -1,0 +1,1 @@
+{"name":"Local: BFS","url":"c:\\Users\\INSPIRED TECH\\OneDrive\\Desktop\\Coading\\Graph\\BFS.cpp","tests":[{"id":1756135816766,"input":"6 7\n5 3\n0 2\n1 4\n2 3\n4 5\n1 0\n1 2","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\INSPIRED TECH\\OneDrive\\Desktop\\Coading\\Graph\\BFS.cpp","group":"local","local":true}

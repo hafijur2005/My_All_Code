@@ -1,0 +1,1 @@
+{"name":"Local: multiply","url":"c:\\Users\\INSPIRED TECH\\OneDrive\\Desktop\\Coading\\C\\multiply.c","tests":[{"id":1741966327869,"input":"3\n53\n30\n51","output":"4\n21\n0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\INSPIRED TECH\\OneDrive\\Desktop\\Coading\\C\\multiply.c","group":"local","local":true}

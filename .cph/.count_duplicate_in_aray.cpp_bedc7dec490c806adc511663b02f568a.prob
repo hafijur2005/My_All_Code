@@ -1,0 +1,1 @@
+{"name":"Local: count_duplicate_in_aray","url":"c:\\Users\\INSPIRED TECH\\OneDrive\\Desktop\\Coading\\count_duplicate_in_aray.cpp","tests":[{"id":1746355503138,"input":"6\n1 2 2 3 4 1","output":"2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\INSPIRED TECH\\OneDrive\\Desktop\\Coading\\count_duplicate_in_aray.cpp","group":"local","local":true}

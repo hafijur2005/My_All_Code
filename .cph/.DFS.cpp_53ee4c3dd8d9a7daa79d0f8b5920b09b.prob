@@ -1,0 +1,1 @@
+{"name":"Local: DFS","url":"e:\\OneDrive\\Desktop\\Coading\\DFS.cpp","tests":[{"id":1758255467543,"input":"8 12 5 3\n1 4\n2 3\n3 5\n4 6\n5 1\n6 7\n7 1\n8 5\n8 2\n7 3\n2 4\n5 4","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\OneDrive\\Desktop\\Coading\\DFS.cpp","group":"local","local":true}
