@@ -1,1 +1,0 @@
-{"name":"Local: test","url":"c:\\Users\\INSPIRED TECH\\OneDrive\\Desktop\\Coading\\C\\test.c","tests":[{"id":1741966995659,"input":"3\n53\n30\n51","output":"4\n21\n0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\INSPIRED TECH\\OneDrive\\Desktop\\Coading\\C\\test.c","group":"local","local":true}
