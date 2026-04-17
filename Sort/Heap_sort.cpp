@@ -8,7 +8,10 @@ using namespace std;
 #define yes cout << "YES\n";
 #define no cout << "nO\n";
 #define nl cout << "\n";
-void heapify(int arr[], int n, int i)
+
+int arr[100];
+int n;
+void heapify( int n, int i)
 {
     int max = i;
     int l = 2 * i + 1;
@@ -24,28 +27,27 @@ void heapify(int arr[], int n, int i)
         heapify(arr, n, max);
     }
 }
-void heapSort(int arr[], int n)
+void heapSort()
 {
     for (int i = n / 2 - 1; i >= 0; i--)
-        heapify(arr, n, i);
+        heapify(n, i);
 
     for (int i = n - 1; i > 0; i--)
     {
         swap(arr[0], arr[i]);
-        heapify(arr, i, 0);
+        heapify(i, 0);
     }
 }
 
 int main()
 {
     fast;
-    int n;
+    
     cin >> n;
-    int arr[n];
     for (int i = 0; i < n; i++)
         cin >> arr[i];
 
-    heapSort(arr, n);
+    heapSort();
 
     for (int i = 0; i < n; i++)
         cout << arr[i] << " ";
