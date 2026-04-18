@@ -25,7 +25,6 @@ void heapify( int n, int i)
     {
         swap(arr[i], arr[max]);
         heapify(n, max);
-        heapify( n, max);
 
     }
 }
