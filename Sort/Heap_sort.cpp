@@ -22,11 +22,8 @@ void heapify( int n, int i)
     if (r < n && arr[r] > arr[max])
         max = r;
     if (max != i)
-    {
         swap(arr[i], arr[max]);
-        heapify(n, max);
-
-    }
+    
 }
 void heapSort()
 {
