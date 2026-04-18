@@ -24,7 +24,11 @@ void heapify( int n, int i)
     if (max != i)
     {
         swap(arr[i], arr[max]);
+<<<<<<< HEAD
         heapify(n, max);
+=======
+        heapify( n, max);
+>>>>>>> a975370 (add code)
     }
 }
 void heapSort()
